@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    
+    /* text-align: center; */
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0,0,0.8);    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(236, 132, 132);  
+}
+
+.box{    
+    width: 50vw;
+    height: 70vh;    
+}
+
+#textarea{
+    width: 50vw;
+    height: 50vh;
+    padding: 10px;
+    background-color: white;
+    font-size: large;
+}
+
+.foot{   
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    color: white;
+    height: 70px;
+    background-color: rgb(190, 20, 1);
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;   
+   
+}
+
+.btn{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(55, 175, 245);
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(245, 55, 55);
+    color: white;
+}
+
+
+
+@media only screen and (max-width:800px) {
+   
+ .box{    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 40vh;    
+}
+    
+    
+#textarea{
+    width: 80%;
+    height: 30vh;
+    font-size: 14px;
+    padding: 10px;
+    font-size: large;
+}
+
+.foot{   
+    width: 80%;
+    height: 50px;
+}
+
+.btn{
+    width: 80%;    
+}
+}
+
+
+
+@media only screen and (max-width:600px) {
+  
+    
+.box{    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;    
+}
+
+#textarea{
+    width: 70vw;
+    height: 30vh;
+    font-size: 14px;
+    padding: 10px;
+    font-size: large;
+}
+
+
+.foot{   
+    width: 70%; 
+    height: 40px;   
+}
+
+.para{
+    font-size: 14px;
+}
+.btn{
+    width: 70%;
+    
+}
+    
+    
+}
